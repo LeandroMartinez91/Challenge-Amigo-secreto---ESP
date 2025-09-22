@@ -1,8 +1,7 @@
 let amigos=[];
 
-function asignarTextoElemento(elemento, texto){ //2 parametros que recibe la funcion
-    let elementoHTML= document.querySelector(elemento); //dom la forma que tengo de conectar los elementos de la pagina con mi javascript- me permite trabajar con varios elemenos 
-    elementoHTML.innerHTML = texto;
+function asignarTextoElemento(elemento, texto){
+    let elementoHTML= document.querySelector(elemento); 
 }
 
 function limpiarCaja(){
